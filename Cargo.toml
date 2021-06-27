@@ -22,9 +22,9 @@ fuser = { version = "0.8", features = ['abi-7-30'], default-features = false }
 libc = "0.2"
 byteorder = "1.3"
 flatbuffers = "0.7"
-# Good ^
 thread_local = "1.0"
-#sha2 = "0.9"
+# Good ^
+sha2 = "0.9"
 #walkdir = "2.3"
 # Bad ^
 #raft = "0.6"
