@@ -112,7 +112,6 @@ dependencies = [
  "futures-util",
  "libc",
  "log",
- "protobuf",
  "rand",
  "sha2",
  "slog",
@@ -429,12 +428,6 @@ checksum = "f0d8caf72986c1a598726adc988bb5984792ef84f5ee5aa50209145ee8077038"
 dependencies = [
  "unicode-xid",
 ]
-
-[[package]]
-name = "protobuf"
-version = "2.24.1"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "db50e77ae196458ccd3dc58a31ea1a90b0698ab1b7928d89f644c25d72070267"
 
 [[package]]
 name = "quote"
