@@ -25,12 +25,12 @@ flatbuffers = "0.7"
 thread_local = "1.0"
 sha2 = "0.9"
 walkdir = "2.3"
-# Good ^
-# Bad ^
-#raft = "0.6" # Bad
-#protobuf = "2.24"
 rand = "0.8"
 bytes = "1.0"
+# Good ^
+# Bad
+#raft = "0.6" # Bad
+protobuf = "2.24"
 
 [dev-dependencies]
 tempfile = "3.1"
