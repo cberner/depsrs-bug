@@ -9,7 +9,7 @@ edition = "2018"
 exclude = ["*.sh"]
 
 [dependencies]
-raft = "0.6" # Bad
+raft = {version = "0.6", default-features = false } # Bad
 
 [profile.release]
 debug = true
